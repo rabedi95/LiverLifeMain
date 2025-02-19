@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\liverlife.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:liverlife.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
@@ -148,9 +148,21 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 121,
-          "SelectedChildIndex": 10,
+          "DockedHeight": 140,
+          "SelectedChildIndex": 11,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 7,
@@ -163,21 +175,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T21:02:28.656Z",
               "IsPinned": true
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AndroidManifest.xml",
-              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\Platforms\\Android\\AndroidManifest.xml",
-              "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",
-              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\Platforms\\Android\\AndroidManifest.xml",
-              "RelativeToolTip": "Platforms\\Android\\AndroidManifest.xml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2025-02-18T21:55:24.56Z"
             },
             {
               "$type": "Document",
@@ -193,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LiverLife.csproj",
               "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\LiverLife.csproj",
               "RelativeDocumentMoniker": "LiverLife.csproj",
@@ -231,15 +228,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Styles.xaml",
               "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\Resources\\Styles\\Styles.xaml",
               "RelativeDocumentMoniker": "Resources\\Styles\\Styles.xaml",
               "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\Resources\\Styles\\Styles.xaml",
               "RelativeToolTip": "Resources\\Styles\\Styles.xaml",
-              "ViewState": "AgIAACAAAAAAAAAAAAAqwDMAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAFcDAAAAAAAAAIAwwGwDAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-11T16:26:49.501Z"
+              "WhenOpened": "2025-02-11T16:26:49.501Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -254,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LoginPage.xaml",
               "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\LoginPage.xaml",
               "RelativeDocumentMoniker": "LoginPage.xaml",
@@ -271,20 +269,23 @@
               "Title": "HomePage.xaml",
               "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\HomePage.xaml",
               "RelativeDocumentMoniker": "HomePage.xaml",
-              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\HomePage.xaml*",
-              "RelativeToolTip": "HomePage.xaml*",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAF0AAAB6AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\HomePage.xaml",
+              "RelativeToolTip": "HomePage.xaml",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAswHAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-03T16:01:18.426Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "Platforms\\Android\\AndroidManifest.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-02-18T21:55:24.56Z"
             },
             {
               "$type": "Document",
@@ -404,7 +405,8 @@
               "RelativeToolTip": "HepatiqPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-03T19:15:07.399Z"
+              "WhenOpened": "2025-02-03T19:15:07.399Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -572,7 +574,8 @@
               "RelativeToolTip": "Resources\\Styles\\Colors.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-03T17:05:29.176Z"
+              "WhenOpened": "2025-02-03T17:05:29.176Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

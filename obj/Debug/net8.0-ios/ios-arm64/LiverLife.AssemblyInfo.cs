@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LiverLife")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+e16b976b26638d3747894ab5fce22ad80d5bfe3e")]
 [assembly: System.Reflection.AssemblyProductAttribute("LiverLife")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LiverLife")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

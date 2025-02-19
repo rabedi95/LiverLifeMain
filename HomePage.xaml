@@ -112,6 +112,11 @@ Cirrhosis can lead to liver failure, a life-threatening condition. But early tre
 &#10;• Bruising easily."
                    
        TextColor="White" FontSize="12" Padding="10"/>
+            <!--just for test-->
+
+
+
+            <Image Source="" WidthRequest="340" HorizontalOptions="Center" Margin="0,10,0,0"/>
 
         </StackLayout>
 
