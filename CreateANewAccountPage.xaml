@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LiverLife.CreateANewAccountPage"
+             Title="CreateANewAccountPage"
+             Background="{StaticResource BackgroundGradient}"
+             NavigationPage.HasBackButton="False">
+    <Grid RowDefinitions="Auto, Auto, Auto,Auto, Auto, Auto, Auto, Auto, Auto, Auto" ColumnDefinitions="Auto,*" Padding="20">
+
+        <Grid.GestureRecognizers>
+
+            <SwipeGestureRecognizer Direction="Right" Swiped="OnSwipeLeft" Threshold="10" />
+
+        </Grid.GestureRecognizers>
+
+            <Label Style="{StaticResource CreateANewAccPageYourDetailLabel}"/>
+
+            <Entry x:Name="CreatNewAcFirstNameEntry" Style="{StaticResource CreateANewAccPageYourFirstNameEntry}"/>
+
+            <Entry x:Name="CreatNewAcLastNameEntry"  Style="{StaticResource CreateANewAccPageYourLastNameEntry}"/>
+
+            <Entry x:Name="CreatNewAcEmailEntry" Style="{StaticResource CreateANewAccPageEmailEntry}"/>
+
+            <Entry x:Name="CreatNewAcPasswordEntry" Style="{StaticResource CreateANewAccPagePassEntry}"/>
+
+            <!--<ImageButton x:Name="TogglePasswordVisibilityButton" Style="{StaticResource CreateANewAccPageTogglePassVisBtn}" Clicked="OnEyeButtonClicked"/>-->
+
+            <Entry x:Name="CreatNewAcConfPasswordEntry" Style="{StaticResource CreateANewAccPageConfPassEntry}"/>
+
+            <!--<ImageButton x:Name="ToggleConfirmPasswordVisibilityButton" Style="{StaticResource CreateANewAccPageToggleConfPassBtn}" Clicked="OnEyeButtonClicked"/>-->
+
+            <Picker  x:Name="CountryPicker" Style="{StaticResource CreateANewAccPageCountryPicker}"/>
+
+            <Button x:Name="RegisterBtn" Style="{StaticResource CreateANewAccPageRegisterBtn}" Clicked="OnRegisterButtonClicked"/>
+
+    </Grid>
+</ContentPage>

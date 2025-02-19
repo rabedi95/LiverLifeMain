@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LiverLife.ElastographyPage"
+             Background="{StaticResource BackgroundGradient}"
+             NavigationPage.HasBackButton="True"
+             Title=""
+             >
+    <Grid RowDefinitions="Auto, Auto, Auto, Auto,Auto,Auto" ColumnDefinitions="Auto,*">
+
+        <VerticalStackLayout x:Name="EPInputLayout" Padding="10" Grid.ColumnSpan="2" BackgroundColor="WhiteSmoke">
+
+            <Grid   Grid.ColumnSpan="2" >
+                <Label  Style="{StaticResource ElastographyPageLSMLabel}" />
+                <Entry x:Name="LsmEntry" Style="{StaticResource ElastographyPageLSMEntry}" HorizontalOptions="End"/>
+                <Label Style="{StaticResource ElastographyPageLSMUnitLebl}"/>
+            </Grid>
+            <BoxView Style="{StaticResource ElastographyPageBoxView}"/>
+
+            <Grid   Grid.ColumnSpan="2"  >
+                <Label  Style="{StaticResource ElastographyPageIQRLabel}" />
+                <Entry x:Name="IqrEntry" Style="{StaticResource ElastographyPageIQREntry}" HorizontalOptions="End"/>
+                <Label Style="{StaticResource ElastographyPageIQRUnitLebl}"/>
+            </Grid>
+            <BoxView Style="{StaticResource ElastographyPageBoxView}"/>
+
+            <Grid   Grid.ColumnSpan="2"  >
+                
+                <Label  Style="{StaticResource ElastographyPageStageLabel}" />
+                <Label x:Name="StageLabel" Style="{StaticResource ElastographyPageSatgeDisplayLabel}" />
+                <Picker x:Name="StageEntry" Style="{StaticResource ElastographyStagePicker}" SelectedIndex="{Binding SelectedStageIndex}" SelectedIndexChanged="OnStageSelected">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>F0</x:String>
+                            <x:String>F1</x:String>
+                            <x:String>F2</x:String>
+                            <x:String>F3</x:String>
+                            <x:String>F4</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+            </Grid>
+            <BoxView Style="{StaticResource ElastographyPageBoxView}"/>
+            
+            <Grid Grid.ColumnSpan="2">
+                <Label  Style="{StaticResource ElastographyPageAgeLabel}" />
+                <Entry x:Name="AgeEntry" Style="{StaticResource ElastographyPageAgeEntry}" HorizontalOptions="End"/>
+            </Grid>
+            <BoxView Style="{StaticResource ElastographyPageBoxView}"/>
+
+            <Grid Grid.ColumnSpan="2">
+                <Label  Style="{StaticResource ElastographyPageGenderLabel}" />
+                <Picker x:Name="GenderEntry" Style="{StaticResource ElastographyGenderPicker}" SelectedIndex="{Binding SelectedGenderIndex}" SelectedIndexChanged="OnGenderSelected" >
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Male</x:String>
+                            <x:String>Female</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+ 
+                <Label x:Name="GenderLabel" Style="{StaticResource ElastographyPageGenderDisplayLabel}"/>
+
+            </Grid>
+            <BoxView Style="{StaticResource ElastographyPageBoxView}"/>
+        </VerticalStackLayout>
+        
+        <Button Style="{StaticResource BloodTestPageAddButton}" Clicked="OnAddButtonClicked"/>
+        
+        <VerticalStackLayout x:Name="EPRecordedDataLayout"  Padding="20" Grid.ColumnSpan="2"  IsVisible="False" BackgroundColor="WhiteSmoke">
+
+        <Grid  Grid.ColumnSpan="2" >
+            <Label Style="{StaticResource ELastographyPageRDLSMLabel}" />
+            <Label x:Name="EPRecordedLsmLabel" Style="{StaticResource ELastographyPageRDLSMDisplay}" />
+        </Grid>
+
+        <Grid  Grid.ColumnSpan="2" >
+            <Label Style="{StaticResource ELastographyPageRDIQRLabel}" />
+            <Label x:Name="EPRecordedIqrLabel" Style="{StaticResource ELastographyPageRDIQRDisplay}"/>
+        </Grid>
+        <Grid  Grid.ColumnSpan="2" >
+            <Label Style="{StaticResource ELastographyPageRDStageLabel}"/>
+            <Label x:Name="EPRecordedStageLabel"  Style="{StaticResource ELastographyPageRDStageDisplay}"/>
+        </Grid>
+        <Grid  Grid.ColumnSpan="2" >
+            <Label Style="{StaticResource ELastographyPageRDAgeLabel}"/>
+            <Label x:Name="EPRecordedAgeLabel" Style="{StaticResource ELastographyPageRDAgeDisplay}"/>
+        </Grid>
+        <Grid  Grid.ColumnSpan="2" >
+            <Label Style="{StaticResource ELastographyPageRDGenderLabel}"/>
+            <Label x:Name="EPRecordedGenderLabel" Style="{StaticResource ELastographyPageRDGenderDisplay}"/>
+        </Grid>
+
+    </VerticalStackLayout>
+    </Grid>
+    <ContentPage.ToolbarItems>
+
+        <ToolbarItem x:Name="EPToolbarEditBtn" Text="Edit"   IsEnabled="False" Clicked="OnEditButtonClicked">
+
+        </ToolbarItem>
+
+    </ContentPage.ToolbarItems>
+
+</ContentPage>

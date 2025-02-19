@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LiverLife.WelcomePage"
+             Title=""
+             Background="{StaticResource BackgroundGradient}"
+             NavigationPage.HasBackButton="True">
+    
+    <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto" ColumnDefinitions="Auto,*" Padding="10">
+
+        <!--<VerticalStackLayout Spacing="10"   Grid.ColumnSpan="2"   >-->
+            
+            <CarouselView x:Name="carouselView" IndicatorView="indicatorView" Margin="0,0,0,0" Grid.ColumnSpan="2" Grid.Row="2" >
+                
+                <CarouselView.ItemTemplate >
+                    
+                    <DataTemplate>
+                        
+                        <VerticalStackLayout >
+                            
+                        <Image Style="{StaticResource WelcomePageCarouselImage}"/>
+                        <Label x:Name="welcomePageCenterLabel" Style="{StaticResource WelcomePageCarouselCenterLabel}"/>
+ 
+                        </VerticalStackLayout>
+                        
+                    </DataTemplate>
+                    
+                </CarouselView.ItemTemplate>
+                
+            </CarouselView>
+            
+            <IndicatorView x:Name="indicatorView" Style="{StaticResource WelcomePageCarouselIndicator}"  />
+
+
+            <Button Style="{StaticResource WelcomePageStartButton}" Clicked="WelcomeStartButtonClicked" />
+        <!--</VerticalStackLayout>-->
+        
+    </Grid>
+    
+</ContentPage>
+    
+    
+<!--<VerticalStackLayout    HorizontalOptions="Center"  Spacing="5"     Grid.Column="2"     Margin="0,50,0,0">
+      <Label      x:Name="CenterLogo1"            Style="{StaticResource WelcomePageCenterLogo1}"/>
+      <Label      x:Name="Centersubtitle"         Style="{StaticResource WelcomePageCenterSubtiltle}"/>
+      <Label      x:Name="CenterLogo2"            Style="{StaticResource WelcomePageCenterLogo2}"/>
+      <BoxView    x:Name="HorizontalLine2"        Style="{StaticResource WelcomePageTopLine2}"/>
+      <Label      x:Name="CenterLogo3"            Style="{StaticResource WelcomePageCenterLogo3}"/>
+      <BoxView    x:Name="HorizontalLine3"        Style="{StaticResource WelcomePageTopLine3}"/>
+      <Label      x:Name="CenterLogo4"            Style="{StaticResource WelcomePageCenterLogo4}"/>
+      <BoxView    x:Name="HorizontalLine4"        Style="{StaticResource WelcomePageTopLine4}"/>
+  </VerticalStackLayout>-->

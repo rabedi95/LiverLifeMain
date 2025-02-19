@@ -1,0 +1,618 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\liverlife.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:liverlife.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\liverlife.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:liverlife.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\targets\\Microsoft.Android.Sdk.Aot.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.406\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rabedi\\.nuget\\packages\\communitytoolkit.maui\\9.0.1\\ReadMe.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.406\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rabedi\\.nuget\\packages\\microsoft.maui.core\\9.0.40\\buildTransitive\\Microsoft.Maui.Core.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\33.0.95\\tools\\Xamarin.Android.Common.Debugging.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.406\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.ImportWorkloads.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.406\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.ImportWorkloads.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rabedi\\AppData\\Local\\Temp\\VSGeneratedDocuments\\95732fdd-0538-0719-e543-f9142d081534\\LiverLife.ProductPageViewModel.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rabedi\\source\\repos\\LiverLife\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\bloodtestpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:bloodtestpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\appwriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:appwriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\hepatiqpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:hepatiqpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\confirmemailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:confirmemailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\elastographypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:elastographypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\elastographypageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:elastographypageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\bloodtestpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:bloodtestpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\elastographypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:elastographypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\carouselitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:carouselitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\hepatiqpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:hepatiqpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\registrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:registrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\forgotpasswordpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:forgotpasswordpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\createanewaccountpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:createanewaccountpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|c:\\users\\rabedi\\source\\repos\\liverlife\\bloodtestreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4218D9-CF14-4B7B-84E6-47B3E4679905}|LiverLife.csproj|solutionrelative:bloodtestreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 121,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\HomePage.xaml.cs",
+              "RelativeToolTip": "HomePage.xaml.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAowAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T21:02:28.656Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "Platforms\\Android\\AndroidManifest.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-02-18T21:55:24.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LiverLife",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\LiverLife.csproj",
+              "RelativeDocumentMoniker": "LiverLife.csproj",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\LiverLife.csproj",
+              "RelativeToolTip": "LiverLife.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-18T21:52:13.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LiverLife.csproj",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\LiverLife.csproj",
+              "RelativeDocumentMoniker": "LiverLife.csproj",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\LiverLife.csproj",
+              "RelativeToolTip": "LiverLife.csproj",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-18T21:22:37.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-23T17:48:43.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\rabedi\\.nuget\\packages\\communitytoolkit.maui\\9.0.1\\ReadMe.txt",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\communitytoolkit.maui\\9.0.1\\ReadMe.txt",
+              "ToolTip": "C:\\Users\\rabedi\\.nuget\\packages\\communitytoolkit.maui\\9.0.1\\ReadMe.txt",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\communitytoolkit.maui\\9.0.1\\ReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-02-14T21:56:36.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\Resources\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "Resources\\Styles\\Styles.xaml",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\Resources\\Styles\\Styles.xaml",
+              "RelativeToolTip": "Resources\\Styles\\Styles.xaml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAqwDMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-11T16:26:49.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Microsoft.Maui.Core.After.targets",
+              "DocumentMoniker": "C:\\Users\\rabedi\\.nuget\\packages\\microsoft.maui.core\\9.0.40\\buildTransitive\\Microsoft.Maui.Core.After.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.maui.core\\9.0.40\\buildTransitive\\Microsoft.Maui.Core.After.targets",
+              "ToolTip": "C:\\Users\\rabedi\\.nuget\\packages\\microsoft.maui.core\\9.0.40\\buildTransitive\\Microsoft.Maui.Core.After.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.maui.core\\9.0.40\\buildTransitive\\Microsoft.Maui.Core.After.targets",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-02-14T18:23:03.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "LoginPage.xaml",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\LoginPage.xaml",
+              "RelativeToolTip": "LoginPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-27T19:16:04.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\HomePage.xaml",
+              "RelativeDocumentMoniker": "HomePage.xaml",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\HomePage.xaml*",
+              "RelativeToolTip": "HomePage.xaml*",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAF0AAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-03T16:01:18.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Microsoft.Android.Sdk.Aot.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\targets\\Microsoft.Android.Sdk.Aot.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\targets\\Microsoft.Android.Sdk.Aot.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\targets\\Microsoft.Android.Sdk.Aot.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\targets\\Microsoft.Android.Sdk.Aot.targets",
+              "ViewState": "AgIAAFkAAAAAAAAAAAASwFwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-02-14T18:16:20.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Microsoft.NET.TargetFrameworkInference.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.406\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.406\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.406\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.406\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAcwNYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-02-14T17:38:33.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T21:57:22.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BloodTestPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\BloodTestPage.xaml.cs",
+              "RelativeDocumentMoniker": "BloodTestPage.xaml.cs",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\BloodTestPage.xaml.cs",
+              "RelativeToolTip": "BloodTestPage.xaml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T23:47:04.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppwriteService.cs",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\AppwriteService.cs",
+              "RelativeDocumentMoniker": "AppwriteService.cs",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\AppwriteService.cs",
+              "RelativeToolTip": "AppwriteService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAhwCkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T22:41:44.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.406\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.406\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.406\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.406\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAPAAAAAAAAAAAADgvwkBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-02-14T17:38:29.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "WelcomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\WelcomePage.xaml",
+              "RelativeDocumentMoniker": "WelcomePage.xaml",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\WelcomePage.xaml",
+              "RelativeToolTip": "WelcomePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-27T21:48:23.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Xamarin.Android.Common.Debugging.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\33.0.95\\tools\\Xamarin.Android.Common.Debugging.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\33.0.95\\tools\\Xamarin.Android.Common.Debugging.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\33.0.95\\tools\\Xamarin.Android.Common.Debugging.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\33.0.95\\tools\\Xamarin.Android.Common.Debugging.targets",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAcwG0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-02-14T17:39:25.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "WelcomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\WelcomePage.xaml.cs",
+              "RelativeDocumentMoniker": "WelcomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\WelcomePage.xaml.cs",
+              "RelativeToolTip": "WelcomePage.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T18:59:30.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HepatiqPage.xaml",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\HepatiqPage.xaml",
+              "RelativeDocumentMoniker": "HepatiqPage.xaml",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\HepatiqPage.xaml",
+              "RelativeToolTip": "HepatiqPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-03T19:15:07.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ConfirmEmailPage.xaml",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\ConfirmEmailPage.xaml",
+              "RelativeDocumentMoniker": "ConfirmEmailPage.xaml",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\ConfirmEmailPage.xaml",
+              "RelativeToolTip": "ConfirmEmailPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-13T21:55:11.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ElastographyPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\ElastographyPage.xaml.cs",
+              "RelativeDocumentMoniker": "ElastographyPage.xaml.cs",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\ElastographyPage.xaml.cs",
+              "RelativeToolTip": "ElastographyPage.xaml.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAcwDAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T16:24:15.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ElastographyPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\ElastographyPageViewModel.cs",
+              "RelativeDocumentMoniker": "ElastographyPageViewModel.cs",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\ElastographyPageViewModel.cs",
+              "RelativeToolTip": "ElastographyPageViewModel.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwBoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T18:18:18.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BloodTestPage.xaml",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\BloodTestPage.xaml",
+              "RelativeDocumentMoniker": "BloodTestPage.xaml",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\BloodTestPage.xaml",
+              "RelativeToolTip": "BloodTestPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-11T16:22:25.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ElastographyPage.xaml",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\ElastographyPage.xaml",
+              "RelativeDocumentMoniker": "ElastographyPage.xaml",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\ElastographyPage.xaml",
+              "RelativeToolTip": "ElastographyPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-11T20:15:48.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Microsoft.NET.Sdk.ImportWorkloads.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.406\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.ImportWorkloads.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.406\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.ImportWorkloads.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.406\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.ImportWorkloads.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.406\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.ImportWorkloads.targets",
+              "ViewState": "AgIAABMAAAAAAAAAAADgvyUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-02-12T21:19:57.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Microsoft.NET.Sdk.ImportWorkloads.props",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.406\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.ImportWorkloads.props",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.406\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.ImportWorkloads.props",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.406\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.ImportWorkloads.props",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.406\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.ImportWorkloads.props",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-02-12T22:48:16.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Carouselitem.cs",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\Carouselitem.cs",
+              "RelativeDocumentMoniker": "Carouselitem.cs",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\Carouselitem.cs",
+              "RelativeToolTip": "Carouselitem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T17:44:42.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "HepatiqPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\HepatiqPage.xaml.cs",
+              "RelativeDocumentMoniker": "HepatiqPage.xaml.cs",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\HepatiqPage.xaml.cs",
+              "RelativeToolTip": "HepatiqPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T20:33:04.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RegistrationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\RegistrationViewModel.cs",
+              "RelativeDocumentMoniker": "RegistrationViewModel.cs",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\RegistrationViewModel.cs",
+              "RelativeToolTip": "RegistrationViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T19:33:33.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ForgotPasswordPage.xaml",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\ForgotPasswordPage.xaml",
+              "RelativeDocumentMoniker": "ForgotPasswordPage.xaml",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\ForgotPasswordPage.xaml",
+              "RelativeToolTip": "ForgotPasswordPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-22T18:40:51.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LiverLife.ProductPageViewModel.g.cs",
+              "DocumentMoniker": "C:\\Users\\rabedi\\AppData\\Local\\Temp\\VSGeneratedDocuments\\95732fdd-0538-0719-e543-f9142d081534\\LiverLife.ProductPageViewModel.g.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\VSGeneratedDocuments\\95732fdd-0538-0719-e543-f9142d081534\\LiverLife.ProductPageViewModel.g.cs",
+              "ToolTip": "LiverLife.ProductPageViewModel.g.cs [generated by CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenToolTip": "LiverLife.ProductPageViewModel.g.cs [generated by CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator]",
+              "WhenOpened": "2025-02-10T17:15:15.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CreateANewAccountPage.xaml",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\CreateANewAccountPage.xaml",
+              "RelativeDocumentMoniker": "CreateANewAccountPage.xaml",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\CreateANewAccountPage.xaml",
+              "RelativeToolTip": "CreateANewAccountPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-03T17:56:03.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\Resources\\Styles\\Colors.xaml",
+              "RelativeDocumentMoniker": "Resources\\Styles\\Colors.xaml",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\Resources\\Styles\\Colors.xaml",
+              "RelativeToolTip": "Resources\\Styles\\Colors.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-03T17:05:29.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\LoginPage.xaml.cs",
+              "RelativeToolTip": "LoginPage.xaml.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAmwBoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T17:02:14.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwEoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T16:00:45.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "BloodTestReport.cs",
+              "DocumentMoniker": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\BloodTestReport.cs",
+              "RelativeDocumentMoniker": "BloodTestReport.cs",
+              "ToolTip": "C:\\Users\\rabedi\\source\\repos\\LiverLife\\BloodTestReport.cs",
+              "RelativeToolTip": "BloodTestReport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T18:57:20.382Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

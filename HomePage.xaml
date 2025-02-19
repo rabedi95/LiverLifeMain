@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LiverLife.HomePage"
+             Title=""
+             Background="{StaticResource BackgroundGradient}">
+    
+    <Grid x:Name="HomePageLayout" RowDefinitions="Auto,Auto,*,Auto,Auto,Auto" ColumnDefinitions="Auto,*" >
+        
+        <ScrollView Grid.Row="0" Orientation="Horizontal" Grid.ColumnSpan="2"  HorizontalOptions="Center" >
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="10" Padding="10" >
+
+                <Button x:Name="HomeTabBtn"         Style="{StaticResource HomePageHomeTabButton}"          Clicked="OnTabButtonClicked"/>
+                <Button x:Name="LiverTabBtn"        Style="{StaticResource HomePageLiverTabButton}"         Clicked="OnTabButtonClicked"/>
+                <Button x:Name="DiseaseTabBtn"      Style="{StaticResource HomePageDiseaseTabButton}"       Clicked="OnTabButtonClicked"/>
+                <Button x:Name="DiagnosticsTabBtn"  Style="{StaticResource HomePageDiagnosticsTabButton}"   Clicked="OnTabButtonClicked"/>
+                <Button x:Name="MyLiverTabBtn"      Style="{StaticResource HomePageMyLiverTabButton}"       Clicked="OnTabButtonClicked"/>
+                <Button x:Name="AboutTabBtn"        Style="{StaticResource HomePageAboutTabButton}"         Clicked="OnTabButtonClicked"/>
+                <Button x:Name="DonateTabBtn"       Style="{StaticResource HomePageDonateTabButton}"        Clicked="OnTabButtonClicked"/>
+                <Button x:Name="LoginTabBtn"        Style="{StaticResource HomePageLoginTabButton}"         Clicked="OnTabButtonClicked"/>
+                
+            </HorizontalStackLayout>
+        </ScrollView>
+
+            <Grid Grid.Row="1" Grid.ColumnSpan="2" >
+                <BoxView    Style="{StaticResource HomePageTopBoxView}" />
+                <StackLayout x:Name="HomePageContent" IsVisible="False" Spacing="10" >
+                    
+                    <Label      x:Name="HomePageMiddleScreenLabel"      Style="{StaticResource HomePageMiddleLabel}"/>
+                    <Button     x:Name="HomePagemiddleBtn"              Style="{StaticResource HomePageMidleBtn}"       Clicked="MiddleButtonClicked"/>
+                    <BoxView    Style="{StaticResource HomePageBottomBoxView}"/>
+
+                    <ScrollView Orientation="Horizontal" Grid.ColumnSpan="2" HorizontalOptions="Center">
+
+                        <HorizontalStackLayout  Spacing="12"    HeightRequest="44" HorizontalOptions="Center">
+
+                            <Button  x:Name="HomeBloodTestBtn"          Style="{StaticResource HomePageBloodtestButton}"    Clicked="HomePageTopBtnClicked"  />
+                            <Button  x:Name="HomeElastographBtn"        Style="{StaticResource HomePageElastographButton}"  Clicked="HomePageTopBtnClicked" />
+                            <Button  x:Name="HomeHepatiqtBtn"           Style="{StaticResource HomePageHepatiqButton}"      Clicked="HomePageTopBtnClicked" />
+
+                        </HorizontalStackLayout>
+
+                    </ScrollView>
+
+                </StackLayout >
+
+
+
+
+
+            
+        </Grid>
+
+        <ScrollView x:Name="LiverPageContent" Margin="0,5,0,0" Orientation="Vertical" BackgroundColor="#7132a8" IsVisible="False" Grid.ColumnSpan="2"  Grid.Row="2" Grid.RowSpan="4">
+            <VerticalStackLayout >
+            
+                <Label Text="Liver Anatomy" TextColor="White" FontSize="20"  Margin="10,10,0,0" HorizontalOptions="Center" />
+
+                <Label Text="The liver is located in the upper right-hand portion of the abdominal  
+cavity, beneath the diaphragm, and on top of the stomach, right kidney,  and intestines.  
+Shaped like a cone, the liver is a dark reddish-brown organ that weighs about 3 pounds.  
+There are 2 distinct sources that supply blood to the liver, including the following: 
+(1) Oxygenated blood flows in from the hepatic artery, and (2) Nutrient-rich blood flows in from the hepatic portal vein." 
+                        TextColor="White" FontSize="12" Padding="10"  />
+                <Image Source="liver_anatomy.png" WidthRequest="340" HorizontalOptions="Center" Margin="0,10,0,0"/>
+                <Label Text="The liver holds about 570 mL (13%) of the body's blood supply at any given moment. 
+The liver consists of 2 main lobes. Both are made up  of 8 segments that consist of 1,000 lobules (small lobes). 
+These lobules  are connected to small ducts (tubes) that connect with larger ducts to form the common hepatic duct. 
+The common hepatic duct transports the  bile made by the liver cells to the gallbladder and duodenum (the first  part of the small intestine) via the common bile duct." 
+                       TextColor="White" FontSize="12" Padding="10"  />
+                <Label Text="Infections, alcohol and fat build-up can cause scarring in the liver thus changing the anatomy.  
+When sufficiently advanced, antomic changes may be picked by imaging tests."  FontSize="12" Padding="10"  TextColor="White"/>
+                <Label Text="Liver Function" FontSize="20" TextColor="White" HorizontalOptions="Center"/>
+                <Label Text="The liver regulates most chemical levels in the blood and excretes a  product called bile. 
+This helps carry away waste products from the  liver. All the blood leaving the stomach and intestines passes through  the liver. 
+The liver processes this blood and breaks down, balances, and creates nutrients.  It also metabolizes drugs into forms that are  
+easier to use for the rest of the body or that are nontoxic. More than 500 vital functions have been identified with the liver. "
+                        FontSize="12" Padding="10" TextColor="White"/>
+                <Label Text="When the liver has broken down harmful substances, its by-products  are excreted into the bile or blood. 
+Bile by-products enter the  intestine and leave the body in the form of feces. Blood by-products are  filtered out by the kidneys, and leave the body in the form of urine." 
+                       FontSize="12" Padding="10" TextColor="White"/>
+                <Label Text="Scarring in the liver can lead to dysfunction.  However, the liver regenerates and the body increases blood flow to the liver to get more function out of the remaining liver.  
+Only quantitative liver function tests can measure the combined effect of scarring, regeneration and increased blood flow." 
+                       FontSize="12" Padding="10" TextColor="White"/>
+                <Label Text=" &quot;Adapted from Johns Hopkins Medicine (https://www.hopkinsmedicine.org/health/conditions-and-diseases/liver-anatomy-and-functions)&quot;" FontSize="10" Padding="10" TextColor="White"/>
+
+            </VerticalStackLayout>
+           
+
+        </ScrollView>
+
+        <StackLayout x:Name="DiseasePageContent" IsVisible="False" Grid.Row="2" Grid.ColumnSpan="2" Margin="0,10,0,0">
+            
+            <Label Text=" Liver Diseases" TextColor="White" FontSize="20"  Margin="10,10,0,0" HorizontalOptions="Center"/>
+            <Label Text="Liver disease can be passed through families, called 
+inherited. Anything that damages the liver also can cause liver problems, including viruses, 
+alcohol use and obesity. Over time, conditions that damage the liver can lead to scarring, called cirrhosis. 
+Cirrhosis can lead to liver failure, a life-threatening condition. But early treatment may give the liver time to heal." 
+                        TextColor="White" FontSize="12" Padding="10"  />
+            <Label Text="Liver disease doesn't always cause symptoms that can be seen or felt. If there are symptoms of liver disease, they may include:" 
+                        TextColor="White" FontSize="12" Padding="10"  />
+            <Label Text="• Yellowing of the skin and the whites of the eyes, called jaundice. Yellowing of the skin might be harder to see on Black or brown skin.
+&#10;• Belly pain and swelling.
+&#10;• Swelling in the legs and ankles.
+&#10;• Itchy skin.
+&#10;• Dark urine.
+&#10;• Pale stool.
+&#10;• Constant tiredness.
+&#10;• Nausea or vomiting.
+&#10;• Loss of appetite.
+&#10;• Bruising easily."
+                   
+       TextColor="White" FontSize="12" Padding="10"/>
+
+        </StackLayout>
+
+        <StackLayout x:Name="DiagnosticsPageContent" IsVisible="False" Grid.Row="2" Grid.ColumnSpan="2" Margin="0,10,0,0">
+            <Label Text=" This page is under development." TextColor="White" HorizontalOptions="Center" FontSize="20"/>
+        </StackLayout>
+
+        <StackLayout x:Name="MyLiverPageContent" IsVisible="False" Grid.Row="2" Grid.ColumnSpan="2" Margin="0,10,0,0">
+            <Label Text=" This page is under development." TextColor="White" HorizontalOptions="Center" FontSize="20"/>
+        </StackLayout>
+
+        <StackLayout x:Name="AboutPageContent" IsVisible="False" Grid.Row="2" Grid.ColumnSpan="2" Margin="0,10,0,0">
+            <Label Text=" This page is under development." TextColor="White" HorizontalOptions="Center" FontSize="20"/>
+        </StackLayout>
+
+        <StackLayout x:Name="DonatePageContent" IsVisible="False" Grid.Row="2" Grid.ColumnSpan="2" Margin="0,10,0,0">
+            <Label Text=" This page is under development." TextColor="White" HorizontalOptions="Center" FontSize="20"/>
+        </StackLayout>
+
+        <StackLayout x:Name="LoginPageContent" IsVisible="False" Grid.Row="2" Grid.ColumnSpan="2" Margin="0,10,0,0">
+            <Label Text=" This page is under development." TextColor="White" HorizontalOptions="Center" FontSize="20"/>
+        </StackLayout>
+
+
+        <!--</VerticalStackLayout>-->
+</Grid>
+
+    
+</ContentPage>

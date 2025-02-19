@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LiverLife.LoginPage"
+             Title=""
+             Background="{StaticResource BackgroundGradient}"
+             NavigationPage.HasBackButton="False">
+    <Grid RowDefinitions="Auto, Auto, Auto, Auto, Auto, *" ColumnDefinitions="Auto,*" Padding="10">
+
+        <!--<VerticalStackLayout Spacing="10"  Grid.Column="2" Padding="20">-->
+
+            <Label      x:Name="LoginPageMainLogo"      Style="{StaticResource LoginPageLogol}"/>
+
+            <Label      x:Name="loginPageSignInLabel"   Style="{StaticResource LoginPageSignInLabel}"/>
+
+            <Entry      x:Name="EmailEntry"             Style="{StaticResource LoginPageEmailAddressEntry}"/>
+            
+            <Entry      x:Name="LoginPasswordEntry"     Style="{StaticResource LoginPagePasswordEntry}"/>
+
+            <Button     x:Name="ForgotPasswordBtn"      Style="{StaticResource LoginPageForgotPassBtn}" Clicked="ForgotPassBtnClicked"/>
+
+            <BoxView Style="{StaticResource LoginPageBoxView}" />
+
+            <HorizontalStackLayout x:Name="LoginPageButtonsStack"     Grid.Row="5"    Grid.ColumnSpan="2"     Spacing="0"     HorizontalOptions="CenterAndExpand"     Margin="0,20,0,0">
+
+                <Button     x:Name="SignInBtn" Style="{StaticResource LoginPageSignInBtn}" Clicked="OnSignInClicked"/>
+
+                <Button     x:Name="OncreateANewAccountBtn" Style="{StaticResource LoginPageCreateANewAccBtn}"  Clicked="OnCreateNewAccountClicked"/>
+
+            </HorizontalStackLayout>
+
+            <Button     x:Name="ContinueAsguestBtn"     Style="{StaticResource LoginPageContinueAsGuestBtn}"    Clicked="ContinueAsGuestClicked" />
+
+        <!--</VerticalStackLayout>-->
+
+    </Grid>
+    
+</ContentPage>

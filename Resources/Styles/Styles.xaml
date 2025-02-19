@@ -1,0 +1,1734 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="true" ?>
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Style TargetType="ActivityIndicator">
+        <Setter Property="Color" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource White}}" />
+    </Style>
+
+    <Style TargetType="IndicatorView">
+        <Setter Property="IndicatorColor" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray500}}"/>
+        <Setter Property="SelectedIndicatorColor" Value="{AppThemeBinding Light={StaticResource Gray950}, Dark={StaticResource Gray100}}"/>
+    </Style>
+
+    <Style TargetType="Border">
+        <Setter Property="Stroke" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray500}}" />
+        <Setter Property="StrokeShape" Value="Rectangle"/>
+        <Setter Property="StrokeThickness" Value="1"/>
+    </Style>
+
+    <Style TargetType="BoxView">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource Gray950}, Dark={StaticResource Gray200}}" />
+    </Style>
+
+    <Style TargetType="Button">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource PrimaryDarkText}}" />
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" />
+        <Setter Property="FontFamily" Value="OpenSansRegular"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="BorderWidth" Value="0"/>
+        <Setter Property="CornerRadius" Value="8"/>
+        <Setter Property="Padding" Value="14,10"/>
+        <Setter Property="MinimumHeightRequest" Value="44"/>
+        <Setter Property="MinimumWidthRequest" Value="44"/>
+        <Setter Property="VisualStateManager.VisualStateGroups">
+            <VisualStateGroupList>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal" />
+                    <VisualState x:Name="Disabled">
+                        <VisualState.Setters>
+                            <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Gray950}, Dark={StaticResource Gray200}}" />
+                            <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray600}}" />
+                        </VisualState.Setters>
+                    </VisualState>
+                    <VisualState x:Name="PointerOver" />
+                </VisualStateGroup>
+            </VisualStateGroupList>
+        </Setter>
+    </Style>
+
+    <Style TargetType="CheckBox">
+        <Setter Property="Color" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource White}}" />
+        <Setter Property="MinimumHeightRequest" Value="44"/>
+        <Setter Property="MinimumWidthRequest" Value="44"/>
+        <Setter Property="VisualStateManager.VisualStateGroups">
+            <VisualStateGroupList>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal" />
+                    <VisualState x:Name="Disabled">
+                        <VisualState.Setters>
+                            <Setter Property="Color" Value="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray600}}" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateGroupList>
+        </Setter>
+    </Style>
+
+    <Style TargetType="DatePicker">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}" />
+        <Setter Property="BackgroundColor" Value="Transparent" />
+        <Setter Property="FontFamily" Value="OpenSansRegular"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="MinimumHeightRequest" Value="44"/>
+        <Setter Property="MinimumWidthRequest" Value="44"/>
+        <Setter Property="VisualStateManager.VisualStateGroups">
+            <VisualStateGroupList>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal" />
+                    <VisualState x:Name="Disabled">
+                        <VisualState.Setters>
+                            <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray500}}" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateGroupList>
+        </Setter>
+    </Style>
+
+    <Style TargetType="Editor">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}" />
+        <Setter Property="BackgroundColor" Value="Transparent" />
+        <Setter Property="FontFamily" Value="OpenSansRegular"/>
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="PlaceholderColor" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray500}}" />
+        <Setter Property="MinimumHeightRequest" Value="44"/>
+        <Setter Property="MinimumWidthRequest" Value="44"/>
+        <Setter Property="VisualStateManager.VisualStateGroups">
+            <VisualStateGroupList>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal" />
+                    <VisualState x:Name="Disabled">
+                        <VisualState.Setters>
+                            <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray600}}" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateGroupList>
+        </Setter>
+    </Style>
+
+    <Style TargetType="Entry">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}" />
+        <Setter Property="BackgroundColor" Value="Transparent" />
+        <Setter Property="FontFamily" Value="OpenSansRegular"/>
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="PlaceholderColor" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray500}}" />
+        <Setter Property="MinimumHeightRequest" Value="44"/>
+        <Setter Property="MinimumWidthRequest" Value="44"/>
+        <Setter Property="VisualStateManager.VisualStateGroups">
+            <VisualStateGroupList>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal" />
+                    <VisualState x:Name="Disabled">
+                        <VisualState.Setters>
+                            <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray600}}" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateGroupList>
+        </Setter>
+    </Style>
+
+    <Style TargetType="Frame">
+        <Setter Property="HasShadow" Value="False" />
+        <Setter Property="BorderColor" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray950}}" />
+        <Setter Property="CornerRadius" Value="8" />
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Black}}" />
+    </Style>
+
+    <Style TargetType="ImageButton">
+        <Setter Property="Opacity" Value="1" />
+        <Setter Property="BorderColor" Value="Transparent"/>
+        <Setter Property="BorderWidth" Value="0"/>
+        <Setter Property="CornerRadius" Value="0"/>
+        <Setter Property="MinimumHeightRequest" Value="44"/>
+        <Setter Property="MinimumWidthRequest" Value="44"/>
+        <Setter Property="VisualStateManager.VisualStateGroups">
+            <VisualStateGroupList>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal" />
+                    <VisualState x:Name="Disabled">
+                        <VisualState.Setters>
+                            <Setter Property="Opacity" Value="0.5" />
+                        </VisualState.Setters>
+                    </VisualState>
+                    <VisualState x:Name="PointerOver" />
+                </VisualStateGroup>
+            </VisualStateGroupList>
+        </Setter>
+    </Style>
+
+    <Style TargetType="Label">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}" />
+        <Setter Property="BackgroundColor" Value="Transparent" />
+        <Setter Property="FontFamily" Value="OpenSansRegular" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="VisualStateManager.VisualStateGroups">
+            <VisualStateGroupList>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal" />
+                    <VisualState x:Name="Disabled">
+                        <VisualState.Setters>
+                            <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray600}}" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateGroupList>
+        </Setter>
+    </Style>
+
+    <Style TargetType="Span">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}" />
+    </Style>
+
+    <Style TargetType="Label" x:Key="Headline">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource MidnightBlue}, Dark={StaticResource White}}" />
+        <Setter Property="FontSize" Value="32" />
+        <Setter Property="HorizontalOptions" Value="Center" />
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+    </Style>
+
+    <Style TargetType="Label" x:Key="SubHeadline">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource MidnightBlue}, Dark={StaticResource White}}" />
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="HorizontalOptions" Value="Center" />
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+    </Style>
+
+    <Style TargetType="ListView">
+        <Setter Property="SeparatorColor" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray500}}" />
+        <Setter Property="RefreshControlColor" Value="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource Gray200}}" />
+    </Style>
+
+    <Style TargetType="Picker">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}" />
+        <Setter Property="TitleColor" Value="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource Gray200}}" />
+        <Setter Property="BackgroundColor" Value="Transparent" />
+        <Setter Property="FontFamily" Value="OpenSansRegular"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="MinimumHeightRequest" Value="44"/>
+        <Setter Property="MinimumWidthRequest" Value="44"/>
+        <Setter Property="VisualStateManager.VisualStateGroups">
+            <VisualStateGroupList>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal" />
+                    <VisualState x:Name="Disabled">
+                        <VisualState.Setters>
+                            <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray600}}" />
+                            <Setter Property="TitleColor" Value="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray600}}" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateGroupList>
+        </Setter>
+    </Style>
+
+    <Style TargetType="ProgressBar">
+        <Setter Property="ProgressColor" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource White}}" />
+        <Setter Property="VisualStateManager.VisualStateGroups">
+            <VisualStateGroupList>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal" />
+                    <VisualState x:Name="Disabled">
+                        <VisualState.Setters>
+                            <Setter Property="ProgressColor" Value="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray600}}" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateGroupList>
+        </Setter>
+    </Style>
+
+    <Style TargetType="RadioButton">
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}" />
+        <Setter Property="FontFamily" Value="OpenSansRegular"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="MinimumHeightRequest" Value="44"/>
+        <Setter Property="MinimumWidthRequest" Value="44"/>
+        <Setter Property="VisualStateManager.VisualStateGroups">
+            <VisualStateGroupList>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal" />
+                    <VisualState x:Name="Disabled">
+                        <VisualState.Setters>
+                            <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray600}}" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateGroupList>
+        </Setter>
+    </Style>
+
+    <Style TargetType="RefreshView">
+        <Setter Property="RefreshColor" Value="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource Gray200}}" />
+    </Style>
+
+    <Style TargetType="SearchBar">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}" />
+        <Setter Property="PlaceholderColor" Value="{StaticResource Gray500}" />
+        <Setter Property="CancelButtonColor" Value="{StaticResource Gray500}" />
+        <Setter Property="BackgroundColor" Value="Transparent" />
+        <Setter Property="FontFamily" Value="OpenSansRegular" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="MinimumHeightRequest" Value="44"/>
+        <Setter Property="MinimumWidthRequest" Value="44"/>
+        <Setter Property="VisualStateManager.VisualStateGroups">
+            <VisualStateGroupList>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal" />
+                    <VisualState x:Name="Disabled">
+                        <VisualState.Setters>
+                            <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray600}}" />
+                            <Setter Property="PlaceholderColor" Value="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray600}}" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateGroupList>
+        </Setter>
+    </Style>
+
+    <Style TargetType="SearchHandler">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}" />
+        <Setter Property="PlaceholderColor" Value="{StaticResource Gray500}" />
+        <Setter Property="BackgroundColor" Value="Transparent" />
+        <Setter Property="FontFamily" Value="OpenSansRegular" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="VisualStateManager.VisualStateGroups">
+            <VisualStateGroupList>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal" />
+                    <VisualState x:Name="Disabled">
+                        <VisualState.Setters>
+                            <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray600}}" />
+                            <Setter Property="PlaceholderColor" Value="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray600}}" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateGroupList>
+        </Setter>
+    </Style>
+
+    <Style TargetType="Shadow">
+        <Setter Property="Radius" Value="15" />
+        <Setter Property="Opacity" Value="0.5" />
+        <Setter Property="Brush" Value="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource White}}" />
+        <Setter Property="Offset" Value="10,10" />
+    </Style>
+
+    <Style TargetType="Slider">
+        <Setter Property="MinimumTrackColor" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource White}}" />
+        <Setter Property="MaximumTrackColor" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray600}}" />
+        <Setter Property="ThumbColor" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource White}}" />
+        <Setter Property="VisualStateManager.VisualStateGroups">
+            <VisualStateGroupList>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal" />
+                    <VisualState x:Name="Disabled">
+                        <VisualState.Setters>
+                            <Setter Property="MinimumTrackColor" Value="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray600}}"/>
+                            <Setter Property="MaximumTrackColor" Value="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray600}}"/>
+                            <Setter Property="ThumbColor" Value="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray600}}"/>
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateGroupList>
+        </Setter>
+    </Style>
+
+    <Style TargetType="SwipeItem">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Black}}" />
+    </Style>
+
+    <Style TargetType="Switch">
+        <Setter Property="OnColor" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource White}}" />
+        <Setter Property="ThumbColor" Value="{StaticResource White}" />
+        <Setter Property="VisualStateManager.VisualStateGroups">
+            <VisualStateGroupList>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal" />
+                    <VisualState x:Name="Disabled">
+                        <VisualState.Setters>
+                            <Setter Property="OnColor" Value="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray600}}" />
+                            <Setter Property="ThumbColor" Value="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray600}}" />
+                        </VisualState.Setters>
+                    </VisualState>
+                    <VisualState x:Name="On">
+                        <VisualState.Setters>
+                            <Setter Property="OnColor" Value="{AppThemeBinding Light={StaticResource Secondary}, Dark={StaticResource Gray200}}" />
+                            <Setter Property="ThumbColor" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource White}}" />
+                        </VisualState.Setters>
+                    </VisualState>
+                    <VisualState x:Name="Off">
+                        <VisualState.Setters>
+                            <Setter Property="ThumbColor" Value="{AppThemeBinding Light={StaticResource Gray400}, Dark={StaticResource Gray500}}" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateGroupList>
+        </Setter>
+    </Style>
+
+    <Style TargetType="TimePicker">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}" />
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="FontFamily" Value="OpenSansRegular"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="MinimumHeightRequest" Value="44"/>
+        <Setter Property="MinimumWidthRequest" Value="44"/>
+        <Setter Property="VisualStateManager.VisualStateGroups">
+            <VisualStateGroupList>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal" />
+                    <VisualState x:Name="Disabled">
+                        <VisualState.Setters>
+                            <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray600}}" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateGroupList>
+        </Setter>
+    </Style>
+
+    <Style TargetType="Page" ApplyToDerivedTypes="True">
+        <Setter Property="Padding" Value="0"/>
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource OffBlack}}" />
+    </Style>
+
+    <Style TargetType="Shell" ApplyToDerivedTypes="True">
+        <Setter Property="Shell.BackgroundColor" Value="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource OffBlack}}" />
+        <Setter Property="Shell.ForegroundColor" Value="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource SecondaryDarkText}}" />
+        <Setter Property="Shell.TitleColor" Value="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource SecondaryDarkText}}" />
+        <Setter Property="Shell.DisabledColor" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray950}}" />
+        <Setter Property="Shell.UnselectedColor" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray200}}" />
+        <Setter Property="Shell.NavBarHasShadow" Value="False" />
+        <Setter Property="Shell.TabBarBackgroundColor" Value="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Black}}" />
+        <Setter Property="Shell.TabBarForegroundColor" Value="{AppThemeBinding Light={StaticResource Magenta}, Dark={StaticResource White}}" />
+        <Setter Property="Shell.TabBarTitleColor" Value="{AppThemeBinding Light={StaticResource Magenta}, Dark={StaticResource White}}" />
+        <Setter Property="Shell.TabBarUnselectedColor" Value="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource Gray200}}" />
+    </Style>
+
+    <!--<Style TargetType="NavigationPage">
+        
+        
+    <Setter Property="BarBackgroundColor" Value="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource OffBlack}}" />
+    
+        <Setter Property="BarBackground" Value="#7132a8" />
+        
+    <Setter Property="BarTextColor" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource White}}" />
+    
+        <Setter Property="BarTextColor" Value="white" />
+        <Setter Property="IconColor" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource White}}" />
+    </Style>-->
+
+    <Style TargetType="TabbedPage">
+        <Setter Property="BarBackgroundColor" Value="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Gray950}}" />
+        <Setter Property="BarTextColor" Value="{AppThemeBinding Light={StaticResource Magenta}, Dark={StaticResource White}}" />
+        <Setter Property="UnselectedTabColor" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray950}}" />
+        <Setter Property="SelectedTabColor" Value="{AppThemeBinding Light={StaticResource Gray950}, Dark={StaticResource Gray200}}" />
+    </Style>
+
+    <Style x:Key="HeaderLabelsFrameStyle" TargetType="Frame">
+        <Setter Property="BorderColor" Value="Black"/>
+        <!--<Setter Property="BackgroundColor" Value="#03b1fc"/>-->
+        <Setter Property="BackgroundColor" Value="#61c1ed"/>
+        <Setter Property="CornerRadius" Value="10"/>
+        <Setter Property="Padding" Value="10"/>
+        <Setter Property="HasShadow" Value="True"/>
+        <Setter Property="Margin" Value="5"/>
+    </Style>
+
+    <Style x:Key="HeaderLabelsTextStyle" TargetType="Label">
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="Margin" Value="10,20,0,0"/>
+        <Setter Property="LineBreakMode" Value="WordWrap"/>
+        <Setter Property="FontFamily" Value="OpenSansBold"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <!--<Setter Property="Background" Value="#03b1fc"/>-->
+    </Style>
+
+    <!--this is used for navigation page bar color-->
+    <!--****** this line can be used to add gradient color effect to navigation page ******-->
+    <!--<Style TargetType="NavigationPage">
+        <Setter Property="NavigationPage.BarTextColor" Value="White"/>
+    </Style>-->
+    
+    <!--****** this line can be used to change navigation bar color ******-->
+    <Style TargetType="NavigationPage">
+        <Setter Property="BarBackground" Value="#7132a8"/>
+        <Setter Property="NavigationPage.BarTextColor" Value="White"/>
+
+    </Style>
+
+
+    <LinearGradientBrush x:Key="BackgroundGradient" StartPoint="0,0" EndPoint="1,1">
+        <!--<GradientStop Color="#38b6ff" Offset="0" />-->
+        <GradientStop Color="#0398fc" Offset="0" />
+        <GradientStop Color="White" Offset="1" />
+    </LinearGradientBrush>
+
+    <!--****** LoginPage.xaml Elements Start Here ******-->
+
+    <!--this is used for the login page Sign in Label-->
+    <Style x:Key="LoginPageLogol" TargetType="Label">
+        <Setter Property="Text" Value="Liver Life"/>
+        <Setter Property="TextColor" Value="WhiteSmoke"/>
+        <Setter Property="FontSize" Value="30"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="HorizontalOptions" Value="Center" />
+        <Setter Property="VerticalOptions" Value="Start" />
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+    </Style>
+
+    <!--this is used for the login page Sign in Label-->
+    <Style x:Key="LoginPageSignInLabel" TargetType="Label">
+        <Setter Property="Text" Value="Sign in"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="Grid.Row" Value="1"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="Margin" Value="3,30,0,0"/>
+    </Style>
+
+    <!--this is used for the login page Email address Entry-->
+    <Style x:Key="LoginPageEmailAddressEntry" TargetType="Entry">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="Placeholder" Value="Email address"/>
+        <Setter Property="PlaceholderColor" Value="WhiteSmoke"/>
+        <Setter Property="Grid.Row" Value="2"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="HorizontalOptions" Value="Fill"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+
+    </Style>
+
+    <!--this is used for the login page login password Entry-->
+    <Style x:Key="LoginPagePasswordEntry" TargetType="Entry">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="Placeholder" Value="Password"/>
+        <Setter Property="PlaceholderColor" Value="WhiteSmoke"/>
+        <Setter Property="Grid.Row" Value="3"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="HorizontalOptions" Value="Fill"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="IsPassword" Value="True"/>
+    </Style>
+
+    <!--this is used for the login page login password Visibility image button-->
+    <Style x:Key="LoginPagePassVisibiltyBtn" TargetType="ImageButton">
+        <Setter Property="Source" Value="eye_close.png"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="HeightRequest" Value="40"/>
+    </Style>
+
+    <!--this is used for the login page Forgot password button-->
+    <Style x:Key="LoginPageForgotPassBtn" TargetType="Button">
+        <Setter Property="Text" Value="Forgot Password"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="FontSize" Value="11"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="BorderWidth" Value="1"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="Grid.Row" Value="4"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+    </Style>
+
+    <!--this is used for the login page BoxView-->
+    <Style x:Key="LoginPageBoxView" TargetType="BoxView">
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="WidthRequest" Value="88"/>
+        <Setter Property="HeightRequest" Value="1"/>
+        <Setter Property="Color" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="Margin" Value="0,20,12,0"/>
+        <Setter Property="Grid.Row" Value="4"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+    </Style>
+
+    <!--this is used for the login page Sign in button-->
+    <Style x:Key="LoginPageSignInBtn" TargetType="Button">
+        <Setter Property="Text" Value="Sign in"/>
+        <Setter Property="FontFamily" Value="Raleway-SemiBold"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="Grid.RowSpacing" Value="140"/>
+        <Setter Property="BackgroundColor" Value="#7132a8"/>
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="BorderColor" Value="Black"/>
+        <Setter Property="BorderWidth" Value="1"/>
+        <Setter Property="WidthRequest" Value="100"/>
+        <Setter Property="Grid.Row" Value="5"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+
+    </Style>
+
+    <!--this is used for the login page Create a new account button-->
+    <Style x:Key="LoginPageCreateANewAccBtn" TargetType="Button">
+        <Setter Property="Text" Value="Join Now"/>
+        <Setter Property="FontFamily" Value="Raleway-SemiBold"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="BorderColor" Value="Black"/>
+        <Setter Property="BorderWidth" Value="1"/>
+        <Setter Property="CornerRadius" Value="4"/>
+        <Setter Property="VerticalOptions" Value="Start"/>
+        <Setter Property="BackgroundColor" Value="#E5E3D4" />
+        <Setter Property="Margin" Value="10"/>
+        <Setter Property="Grid.Row" Value="5"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+    </Style>
+
+    <!--this is used for the login page Create a new account button-->
+    <Style x:Key="LoginPageContinueAsGuestBtn" TargetType="Button">
+        <Setter Property="Text" Value="Continue As Guest"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="FontFamily" Value="Raleway-Regular"/>
+        <Setter Property="TextColor" Value="White"/>
+        <Setter Property="WidthRequest" Value="280"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="CornerRadius" Value="4"/>
+        <Setter Property="BorderColor" Value="Black"/>
+        <Setter Property="BorderWidth" Value="1"/>
+        <Setter Property="VerticalOptions" Value="Start"/>
+        <Setter Property="Grid.Row" Value="5"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="Margin" Value="0,150,0,0"/>
+    </Style>
+
+    <!--****** LoginPage.xaml Elements Ends Here ******-->
+    <!--****** ForgotPasswordPage.xaml Elements Ends Here ******-->
+    <Style x:Key="ForgotPasswordPageHeaderLabel" TargetType="Label">
+        <Setter Property="Text" Value="Password Reset"/>
+        <Setter Property="TextColor" Value="White"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="FontSize" Value="30"/>
+        <Setter Property="Margin" Value="10,0,0,0"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="Grid.Row" Value="1"/>
+    </Style>
+
+    <Style x:Key="ForgotPasswordPageBodyLabel" TargetType="Label">
+        <Setter Property="Text" Value="Provide the email address associated with your account to recover your password"/>
+        <Setter Property="TextColor" Value="White"/>
+        <Setter Property="FontSize" Value="Body"/>
+        <Setter Property="Margin" Value="10,10,0,0"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="Grid.Row" Value="2"/>
+    </Style>
+
+    <Style x:Key="ForgotPasswordPageEmailLabel" TargetType="Label">
+        <Setter Property="Text" Value="Email"/>
+        <Setter Property="TextColor" Value="White"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="Margin" Value="10,10,0,0"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="Grid.Row" Value="3"/>
+    </Style>
+
+    <Style x:Key="ForgotPasswordPageEmailEntry" TargetType="Entry">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="Placeholder" Value="Email address"/>
+        <Setter Property="PlaceholderColor" Value="WhiteSmoke"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="Grid.Row" Value="4"/>
+        <Setter Property="Margin" Value="10,10,0,0"/>
+    </Style>
+
+    <Style x:Key="ForgotPasswordPageButton" TargetType="Button">
+        <Setter Property="Text" Value="Reset Password"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="FontFamily" Value="Raleway-Regular"/>
+        <Setter Property="TextColor" Value="White"/>
+        <Setter Property="WidthRequest" Value="280"/>
+        <Setter Property="BackgroundColor" Value="BlueViolet"/>
+        <Setter Property="CornerRadius" Value="4"/>
+        <Setter Property="BorderColor" Value="Black"/>
+        <Setter Property="BorderWidth" Value="1"/>
+        <Setter Property="Margin" Value="10,50,0,0"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="Grid.Row" Value="5"/>
+    </Style>
+
+
+    <!--****** ForgotPasswordPage.xaml Elements Ends Here ******-->
+
+    <!--****** CreateANewAccount.xaml Elements Start Here ******-->
+
+    <!--this is used for the Create a new account page Your Detail label-->
+    <Style x:Key="CreateANewAccPageYourDetailLabel" TargetType="Label">
+        <Setter Property="Text" Value="Your Details"/>
+        <Setter Property="TextColor" Value="White"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="FontFamily" Value="Raleway-Regular"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+    </Style>
+
+
+    <!--this is used for the Create a new account page First Your Name Entry-->
+    <Style x:Key="CreateANewAccPageYourFirstNameEntry" TargetType="Entry">
+        <Setter Property="Text" Value="{Binding FirstName}"/>
+        <Setter Property="Placeholder" Value="First Name"/>
+        <Setter Property="PlaceholderColor" Value="Black"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="Grid.Row" Value="1"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="Margin" Value="0,10,0,0"/>
+    </Style>
+
+    <!--this is used for the Create a new account page Last Your Name Entry-->
+    <Style x:Key="CreateANewAccPageYourLastNameEntry" TargetType="Entry">
+        <Setter Property="Text" Value="{Binding LastName}"/>
+        <Setter Property="Placeholder" Value="Last Name"/>
+        <Setter Property="PlaceholderColor" Value="black"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="Grid.Row" Value="2"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="Margin" Value="0,10,0,0"/>
+    </Style>
+
+    <!--this is used for the Create a new account page Email Entry-->
+    <Style x:Key="CreateANewAccPageEmailEntry" TargetType="Entry">
+        <Setter Property="Text" Value="{Binding Email}"/>
+        <Setter Property="Placeholder" Value="Email address"/>
+        <Setter Property="PlaceholderColor" Value="black"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="Grid.Row" Value="3"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="Margin" Value="0,10,0,0"/>
+    </Style>
+
+    <!--this is used for the Create a new account page Password Entry-->
+    <Style x:Key="CreateANewAccPagePassEntry" TargetType="Entry">
+        <Setter Property="Text" Value="{Binding Password}"/>
+        <Setter Property="Placeholder" Value="Password"/>
+        <Setter Property="PlaceholderColor" Value="Black"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="IsPassword" Value="True"/>
+        <Setter Property="Grid.Row" Value="4"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="Margin" Value="0,10,0,0"/>
+    </Style>
+
+    <!--this is used for the Create a new account toggle password visibility btn-->
+    <Style x:Key="CreateANewAccPageTogglePassVisBtn" TargetType="ImageButton">
+        <Setter Property="Source" Value="eye_close.png"/>
+        <Setter Property="Grid.Row" Value="4"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="WidthRequest" Value="20"/>
+        <Setter Property="HeightRequest" Value="20"/>
+        <Setter Property="Margin" Value="0,0,15,0"/>
+    </Style>
+
+    <!--this is used for the Create a new account confirm password entry-->
+    <Style x:Key="CreateANewAccPageConfPassEntry" TargetType="Entry">
+        <Setter Property="Text" Value="{Binding ConfirmPassword}"/>
+        <Setter Property="Placeholder" Value="Confirm Password"/>
+        <Setter Property="PlaceholderColor" Value="Black"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="IsPassword" Value="True"/>
+        <Setter Property="Grid.Row" Value="5"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="Margin" Value="0,10,0,0"/>
+    </Style>
+
+    <!--this is used for the Create a new account confirm password toggle image btn-->
+    <Style x:Key="CreateANewAccPageToggleConfPassBtn" TargetType="ImageButton">
+        <Setter Property="Source" Value="eye_close.png"/>
+        <Setter Property="Grid.Row" Value="5"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="Margin" Value="0,0,15,0"/>
+    </Style>
+
+    <!--this is used for the Create a new account country picker-->
+    <Style x:Key="CreateANewAccPageCountryPicker" TargetType="Picker">
+        <Setter Property="SelectedItem" Value="{Binding Country}"/>
+        <Setter Property="Title" Value="Select Country"/>
+        <Setter Property="ItemsSource" Value="{Binding Countries}"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="Grid.Row" Value="6"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="Margin" Value="0,10,0,0"/>
+
+    </Style>
+
+    <!--this is used for the Create a new account Register button-->
+    <Style x:Key="CreateANewAccPageRegisterBtn" TargetType="Button">
+        <Setter Property="Text" Value="Register"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="WidthRequest" Value="150"/>
+        <Setter Property="HeightRequest" Value="50"/>
+        <Setter Property="BackgroundColor" Value="#E5E3D4"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="BorderWidth" Value="1"/>
+        <Setter Property="BorderColor" Value="Black"/>
+        <Setter Property="Grid.Row" Value="7"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="Margin" Value="0,10,0,0"/>
+    </Style>
+    <!--****** CreateANewAccount.xaml Elements Ends Here ******-->
+
+    <!--****** WelcomePage.xaml Elements Starts Here ******-->
+
+
+    <!--<Style x:Key="WelcomePageCenterLogo1" TargetType="Label">
+        <Setter Property="Text" Value="Welcome! Ready to learn more &#10;about your liver test result ?"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="TextColor" Value="white"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="FontFamily" Value="Raleway-SemiBold"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="LineBreakMode" Value="WordWrap"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="Grid.Row" Value="1"/>
+    </Style>
+
+    <Style x:Key="WelcomePageCenterSubtiltle" TargetType="Label">
+        <Setter Property="Text" Value="Explore the Benefits:"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="TextColor" Value="white"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="FontFamily" Value="Raleway-SemiBold"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="Margin" Value="0,0,0,0"/>
+        <Setter Property="LineBreakMode" Value="WordWrap"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="Grid.Row" Value="2"/>
+    </Style>-->
+
+    <Style x:Key="WelcomePageCarouselCenterLabel" TargetType="Label">
+        <Setter Property="Text" Value="{Binding LabelText}"/>
+        <Setter Property="TextColor" Value="White"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="WidthRequest" Value="310"/>
+        <Setter Property="Margin" Value="40,0,0,0"/>
+        <Setter Property="LineBreakMode" Value="CharacterWrap"/>
+        <Setter Property="FontFamily" Value="Raleway-SemiBold"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="Grid.Row" Value="3"/>
+    </Style>
+
+    <Style x:Key="WelcomePageCarouselImage" TargetType="Image">
+        <Setter Property="Source" Value="{Binding ImageSource}"/>
+        <Setter Property="WidthRequest" Value="200"/>
+        <Setter Property="HeightRequest" Value="200"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="Aspect" Value="AspectFit"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="Margin" Value="0,20,0,0"/>
+
+    </Style>
+
+    <Style x:Key="WelcomePageCarouselIndicator" TargetType="IndicatorView">
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="IndicatorColor" Value="White"/>
+        <Setter Property="SelectedIndicatorColor" Value="Purple"/>
+        <Setter Property="IndicatorsShape" Value="Circle"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="Grid.Row" Value="4"/>
+        <Setter Property="Margin" Value="0,20,0,0"/>
+    </Style>
+
+    <!--<Style x:Key="WelcomePageCenterLogo2" TargetType="Label">
+        <Setter Property="Text" Value="- Input your blood test report for analysis"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="Margin" Value="10,20,0,0"/>
+        <Setter Property="TextColor" Value="white"/>
+        <Setter Property="FontSize" Value="17"/>
+        <Setter Property="FontFamily" Value="Raleway-SemiBold"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="LineBreakMode" Value="WordWrap"/>
+    </Style>-->
+
+    <!--<Style x:Key="WelcomePageTopLine2" TargetType="BoxView">
+        <Setter Property="HeightRequest" Value="1"/>
+        <Setter Property="WidthRequest" Value="320"/>
+        <Setter Property="Color" Value="WhiteSmoke"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="Margin" Value="10,0,0,0"/>
+    </Style>-->
+
+    <!--<Style x:Key="WelcomePageCenterLogo3" TargetType="Label">
+        <Setter Property="Text" Value="- Input your elastography report for &#10;   detailed liver health insights "/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="Margin" Value="10,20,0,0"/>
+        <Setter Property="TextColor" Value="white"/>
+        <Setter Property="FontSize" Value="17"/>
+        <Setter Property="FontFamily" Value="Raleway-SemiBold"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="LineBreakMode" Value="WordWrap"/>
+    </Style>-->
+    
+    <!--<Style x:Key="WelcomePageTopLine3" TargetType="BoxView">
+        <Setter Property="HeightRequest" Value="1"/>
+        <Setter Property="WidthRequest" Value="320"/>
+        <Setter Property="Color" Value="WhiteSmoke"/>
+        <Setter Property="Margin" Value="10,0,0,0"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="Grid.Row" Value="3"/>
+    </Style>-->
+    
+    <!--<Style x:Key="WelcomePageCenterLogo4" TargetType="Label">
+        <Setter Property="Text" Value="- Try HEPATIQ to quantify liver function "/>
+        <Setter Property="Margin" Value="10,20,0,0"/>
+        <Setter Property="TextColor" Value="white"/>
+        <Setter Property="FontSize" Value="17"/>
+        <Setter Property="FontFamily" Value="Raleway-SemiBold"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="LineBreakMode" Value="WordWrap"/>
+    </Style>-->
+    
+    <!--<Style x:Key="WelcomePageTopLine4" TargetType="BoxView">
+        <Setter Property="HeightRequest" Value="1"/>
+        <Setter Property="WidthRequest" Value="320"/>
+        <Setter Property="Color" Value="WhiteSmoke"/>
+        <Setter Property="Margin" Value="0,0,0,0"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="Grid.Row" Value="4"/>
+    </Style>-->
+
+
+    <!--<Style x:Key="WelcomePageImage" TargetType="Image">
+        <Setter Property="Source" Value="liver_nobkg.png"/>
+        <Setter Property="Grid.Row" Value="1"/>
+        <Setter Property="Margin" Value="0,280,0,0"/>
+        <Setter Property="WidthRequest" Value="80"/>
+        <Setter Property="HeightRequest" Value="80"/>
+        <Setter Property="BackgroundColor" Value="red"/>
+    </Style>-->
+
+    <Style x:Key="WelcomePageStartButton" TargetType="Button">
+        <Setter Property="Text" Value="Start"/>
+        <Setter Property="Margin" Value="0,0,0,0"/>
+        <Setter Property="TextColor" Value="WhiteSmoke"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FontFamily" Value="OpenSansSemibold"/>
+        <Setter Property="BackgroundColor" Value="MediumPurple"/>
+        <Setter Property="WidthRequest" Value="100"/>
+        <Setter Property="HeightRequest" Value="50"/>
+        <Setter Property="FontFamily" Value="Raleway-SemiBold"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="Grid.Row" Value="3"/>
+    </Style>
+    <!--****** WelcomePage.xaml Elements Ends Here ******-->
+    <!--****** HomePage.xaml Elements Starts Here ******-->
+
+    <Style x:Key="HomePageHomeTabButton" TargetType="Button">
+        <Setter Property="Text" Value="Home"/>
+        <Setter Property="TextColor" Value="white"/>
+        <Setter Property="CommandParameter" Value="1"/>
+        <Setter Property="BorderWidth" Value="2"/>
+        <Setter Property="FontFamily" Value="OpenSansSemibold"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="BackgroundColor" Value="Purple"/>
+        <Setter Property="WidthRequest" Value="135"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+    </Style>
+
+    <Style x:Key="HomePageLiverTabButton" TargetType="Button">
+        <Setter Property="Text" Value="Liver"/>
+        <Setter Property="TextColor" Value="white"/>
+        <Setter Property="CommandParameter" Value="2"/>
+        <Setter Property="BorderWidth" Value="2"/>
+        <Setter Property="FontFamily" Value="OpenSansSemibold"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="BackgroundColor" Value="Purple"/>
+        <Setter Property="WidthRequest" Value="135"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+    </Style>
+
+    <Style x:Key="HomePageDiseaseTabButton" TargetType="Button">
+        <Setter Property="Text" Value="Diseases"/>
+        <Setter Property="TextColor" Value="white"/>
+        <Setter Property="CommandParameter" Value="3"/>
+        <Setter Property="BorderWidth" Value="2"/>
+        <Setter Property="FontFamily" Value="OpenSansSemibold"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="BackgroundColor" Value="Purple"/>
+        <Setter Property="WidthRequest" Value="135"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+    </Style>
+
+    <Style x:Key="HomePageDiagnosticsTabButton" TargetType="Button">
+        <Setter Property="Text" Value="Diagnostics"/>
+        <Setter Property="TextColor" Value="white"/>
+        <Setter Property="CommandParameter" Value="4"/>
+        <Setter Property="BorderWidth" Value="2"/>
+        <Setter Property="FontFamily" Value="OpenSansSemibold"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="BackgroundColor" Value="Purple"/>
+        <Setter Property="WidthRequest" Value="135"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+    </Style>
+
+    <Style x:Key="HomePageMyLiverTabButton" TargetType="Button">
+        <Setter Property="Text" Value="My Liver"/>
+        <Setter Property="TextColor" Value="white"/>
+        <Setter Property="CommandParameter" Value="5"/>
+        <Setter Property="BorderWidth" Value="2"/>
+        <Setter Property="FontFamily" Value="OpenSansSemibold"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="BackgroundColor" Value="Purple"/>
+        <Setter Property="WidthRequest" Value="135"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+    </Style>
+
+    <Style x:Key="HomePageAboutTabButton" TargetType="Button">
+        <Setter Property="Text" Value="About"/>
+        <Setter Property="TextColor" Value="white"/>
+        <Setter Property="CommandParameter" Value="6"/>
+        <Setter Property="BorderWidth" Value="2"/>
+        <Setter Property="FontFamily" Value="OpenSansSemibold"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="BackgroundColor" Value="Purple"/>
+        <Setter Property="WidthRequest" Value="135"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+    </Style>
+
+    <Style x:Key="HomePageDonateTabButton" TargetType="Button">
+        <Setter Property="Text" Value="Donate"/>
+        <Setter Property="TextColor" Value="white"/>
+        <Setter Property="CommandParameter" Value="7"/>
+        <Setter Property="BorderWidth" Value="2"/>
+        <Setter Property="FontFamily" Value="OpenSansSemibold"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="BackgroundColor" Value="Purple"/>
+        <Setter Property="WidthRequest" Value="135"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+    </Style>
+
+    <Style x:Key="HomePageLoginTabButton" TargetType="Button">
+        <Setter Property="Text" Value="Login"/>
+        <Setter Property="TextColor" Value="white"/>
+        <Setter Property="CommandParameter" Value="8"/>
+        <Setter Property="BorderWidth" Value="2"/>
+        <Setter Property="FontFamily" Value="OpenSansSemibold"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="BackgroundColor" Value="Purple"/>
+        <Setter Property="WidthRequest" Value="135"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+    </Style>
+
+    <Style x:Key="HomePageMidleBtn" TargetType="Button">
+        <Setter Property="Text" Value=""/>
+        <Setter Property="TextColor" Value="WhiteSmoke"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FontFamily" Value="OpenSansSemibold"/>
+        <Setter Property="Padding" Value="0"/>
+        <Setter Property="BackgroundColor" Value="MediumPurple"/>
+        <Setter Property="WidthRequest" Value="100"/>
+        <Setter Property="HeightRequest" Value="50"/>
+        <Setter Property="FontFamily" Value="Raleway-SemiBold"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="BorderWidth" Value="2"/>
+        <Setter Property="BorderColor" Value="Transparent"/>
+    </Style>
+
+    <Style x:Key="HomePageTopBoxView" TargetType="BoxView">
+        <Setter Property="Color" Value="White"/>
+        <Setter Property="HeightRequest" Value="1"/>
+        <Setter Property="WidthRequest" Value="350"/>
+        <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+        <Setter Property="VerticalOptions" Value="Start"/>
+    </Style>
+
+
+    <Style x:Key="HomePageBottomBoxView" TargetType="BoxView">
+        <Setter Property="Color" Value="Black"/>
+        <Setter Property="HeightRequest" Value="1"/>
+        <Setter Property="WidthRequest" Value="350"/>
+        <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+        <Setter Property="VerticalOptions" Value="Start"/>
+        <Setter Property="Margin" Value="0,250,0,0"/>
+    </Style>
+
+    <Style x:Key="HomePageBloodtestButton" TargetType="Button">
+        <Setter Property="Text" Value="Blood Tests"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FontFamily" Value="Raleway-SemiBold"/>
+        <Setter Property="BackgroundColor" Value="Purple"/>
+        <Setter Property="CornerRadius" Value="10"/>
+        <Setter Property="BorderWidth" Value="2"/>
+        <Setter Property="BorderColor" Value="Transparent"/>
+    </Style>
+
+    <Style x:Key="HomePageElastographButton" TargetType="Button">
+        <Setter Property="Text" Value="Elastography"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FontFamily" Value="Raleway-SemiBold"/>
+        <Setter Property="BackgroundColor" Value="Purple"/>
+        <Setter Property="CornerRadius" Value="10"/>
+        <Setter Property="BorderWidth" Value="2"/>
+        <Setter Property="BorderColor" Value="Black"/>
+    </Style>
+
+    <Style x:Key="HomePageHepatiqButton" TargetType="Button">
+        <Setter Property="Text" Value="Hepatiq"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+        <Setter Property="FontFamily" Value="Raleway-SemiBold"/>
+        <Setter Property="BackgroundColor" Value="Purple"/>
+        <Setter Property="CornerRadius" Value="10"/>
+        <Setter Property="BorderWidth" Value="2"/>
+        <Setter Property="BorderColor" Value="Black"/>
+        <Setter Property="WidthRequest" Value="90"/>
+    </Style>
+
+    <Style x:Key="HomePageMiddleLabel" TargetType="Label">
+        <Setter Property="HeightRequest" Value="90"/>
+        <Setter Property="Text" Value=""/>
+        <Setter Property="HorizontalTextAlignment" Value="Center"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="HeightRequest" Value="90"/>
+        <Setter Property="TextColor" Value="WhiteSmoke"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="FontFamily" Value="Raleway-SemiBold"/>
+        <Setter Property="Margin" Value="0,45,0,0"/>
+    </Style>
+
+    <!--<Style x:Key="HomePageBotttomBoxView" TargetType="BoxView">
+        <Setter Property="HeightRequest" Value="1"/>
+        <Setter Property="WidthRequest" Value="460"/>
+        <Setter Property="Color" Value="Black"/>
+    </Style>-->
+
+                                                                        <!--****** HomePage.xaml Elements Ends Here ******-->
+
+                                                                        <!--****** ConfrimEmailPage.xaml Elements Starts Here ******-->
+
+    <!--this is used for the confirm email page email sent label -->
+    <Style x:Key="ConfirmEmailPageEmailSentLabel" TargetType="Label">
+        <Setter Property="Text" Value="Email Sent"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="FontFamily" Value="Raleway-Regular"/>
+    </Style>
+
+    <!--this is used for the confirm email page email logo image -->
+    <Style x:Key="ConfirmEmailPageEmailLogo" TargetType="Image">
+        <Setter Property="Source" Value="conf_email3.png"/>
+        <Setter Property="Grid.Row" Value="0"/>
+        <Setter Property="Margin" Value="0,20,0,0"/>
+    </Style>
+
+    <!--this is used for the confirm email page 1st label -->
+    <Style x:Key="ConfirmEmailPagelabel1" TargetType="Label">
+        <Setter Property="Text" Value="To complete account setup, please click on the link provided in the email."/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="Margin" Value="20,10,0,0"/>
+        <Setter Property="FontFamily" Value="Raleway-Regular"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="WidthRequest" Value="350"/>
+    </Style>
+
+    <!--this is used for the confirm email page 2nd label -->
+    <Style x:Key="ConfirmEmailPagelabel2" TargetType="Label">
+        <Setter Property="Text" Value="If you dont't get the email,one of the following may be the cause :"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="Margin" Value="15,0,0,0"/>
+        <Setter Property="FontFamily" Value="Raleway-Regular"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="WidthRequest" Value="350"/>
+    </Style>
+
+    <!--this is used for the confirm email page 3rd label -->
+    <Style x:Key="ConfirmEmailPagelabel3" TargetType="Label">
+        <Setter Property="Text" Value="1. You registered the incorrect email address."/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="Margin" Value="15,0,0,0"/>
+        <Setter Property="FontFamily" Value="Raleway-Regular"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="WidthRequest" Value="350"/>
+    </Style>
+
+    <!--this is used for the confirm email page 4th label -->
+    <Style x:Key="ConfirmEmailPagelabel4" TargetType="Label">
+        <Setter Property="Text" Value="2. The email is in your spam folder."/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="Margin" Value="15,0,0,0"/>
+        <Setter Property="FontFamily" Value="Raleway-Regular"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="WidthRequest" Value="350"/>
+    </Style>
+
+    <!--this is used for the confirm email page 5th label -->
+    <Style x:Key="ConfirmEmailPagelabel5" TargetType="Label">
+        <Setter Property="Text" Value="3. Emails from the address 'test@email.com'&#10; are blocked."/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="Margin" Value="15,0,0,0"/>
+        <Setter Property="FontFamily" Value="Raleway-Regular"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="WidthRequest" Value="350"/>
+    </Style>
+
+    <!--this is used for the confirm email page Re-send verififcation email button -->
+    <Style x:Key="ConfirmEmailPageReSendVerEmailBtn" TargetType="Button">
+        <Setter Property="Text" Value="Re-send Verification Email"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="WidthRequest" Value="200"/>
+        <Setter Property="BackgroundColor" Value="#E5E3D4"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="Margin" Value="0,50,0,0"/>
+    </Style>
+                                                                 <!--****** ConfrimEmailPage.xaml Elements End Here ******-->
+
+                                                                  <!--****** BloodTestPage.xaml Elements Starts Here ******-->
+
+    <Style x:Key="BloodtestPageDateBoxView" TargetType="BoxView">
+        <Setter Property="Color" Value="Black"/>
+        <Setter Property="HeightRequest" Value="1"/>
+        <Setter Property="HorizontalOptions" Value="Fill"/>
+        <Setter Property="VerticalOptions" Value="Start"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageDateLabel" TargetType="Label">
+        <Setter Property="Text" Value="Date"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+
+    </Style>
+    
+    <Style x:Key="BloodTestPageDatePicker" TargetType="DatePicker">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="Margin" Value="0,0,40,0"/>
+    </Style>
+    
+    <Style x:Key="BloodTestPageAstLabel" TargetType="Label">
+        <Setter Property="Text" Value="AST"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageAstEntry" TargetType="Entry">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalTextAlignment" Value="Start"/>
+        <Setter Property="WidthRequest" Value="70"/>
+        <Setter Property="Keyboard" Value="Numeric"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="Margin" Value="0,20,40,0"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageAstUnitLebl" TargetType="Label">
+        <Setter Property="Text" Value="U/L"/>
+        <Setter Property="FontSize" Value="12"/>
+        <Setter Property="TextColor" Value="Grey"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="Margin" Value="0,0,10,0"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageAltLabel" TargetType="Label">
+        <Setter Property="Text" Value="ALT"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageAltEntry" TargetType="Entry">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HeightRequest" Value="40"/>
+        <Setter Property="Margin" Value="0,10,40,0"/>
+        <Setter Property="HorizontalTextAlignment" Value="Start"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="WidthRequest" Value="70"/>
+        <Setter Property="Keyboard" Value="Numeric"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageAltUnitLebl" TargetType="Label">
+        <Setter Property="Text" Value="U/L"/>
+        <Setter Property="FontSize" Value="12"/>
+        <Setter Property="TextColor" Value="Grey"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="Margin" Value="0,0,10,0"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageAlpLabel" TargetType="Label">
+        <Setter Property="Text" Value="ALP"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageAlpEntry" TargetType="Entry">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HeightRequest" Value="40"/>
+        <Setter Property="Margin" Value="0,10,40,0"/>
+        <Setter Property="HorizontalTextAlignment" Value="Start"/>
+        <Setter Property="WidthRequest" Value="70"/>
+        <Setter Property="Keyboard" Value="Numeric"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageAlpUnitLebl" TargetType="Label">
+        <Setter Property="Text" Value="U/L"/>
+        <Setter Property="FontSize" Value="12"/>
+        <Setter Property="TextColor" Value="Grey"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="Margin" Value="0,0,10,0"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageBilirubiaLabel" TargetType="Label">
+        <Setter Property="Text" Value="Bilirubia"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageBilirubiatEntry" TargetType="Entry">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HeightRequest" Value="40"/>
+        <Setter Property="Margin" Value="0,10,40,0"/>
+        <Setter Property="HorizontalTextAlignment" Value="Start"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="WidthRequest" Value="70"/>
+        <Setter Property="Keyboard" Value="Numeric"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageBilirubiaUnitLebl" TargetType="Label">
+        <Setter Property="Text" Value="mg/dL"/>
+        <Setter Property="FontSize" Value="11"/>
+        <Setter Property="TextColor" Value="Grey"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="Grid.Row" Value="5"/>
+    </Style>
+
+
+    <Style x:Key="BloodTestPageInrLabel" TargetType="Label">
+        <Setter Property="Text" Value="INR"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageInrEntry" TargetType="Entry">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HeightRequest" Value="40"/>
+        <Setter Property="Margin" Value="0,10,40,0"/>
+        <Setter Property="HorizontalTextAlignment" Value="Start"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="WidthRequest" Value="70"/>
+        <Setter Property="Keyboard" Value="Numeric"/>
+    </Style>
+
+
+    <Style x:Key="BloodTestPageAlbuminLabel" TargetType="Label">
+        <Setter Property="Text" Value="Albumin"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageAlbuminEntry" TargetType="Entry">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HeightRequest" Value="40"/>
+        <Setter Property="Margin" Value="0,10,40,0"/>
+        <Setter Property="HorizontalTextAlignment" Value="End"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="WidthRequest" Value="70"/>
+        <Setter Property="Keyboard" Value="Numeric"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageAlbuminUnitLebl" TargetType="Label">
+        <Setter Property="Text" Value="g/dL"/>
+        <Setter Property="FontSize" Value="11"/>
+        <Setter Property="TextColor" Value="Grey"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="Margin" Value="0,0,10,0"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageAddButton" TargetType="Button">
+        <Setter Property="Text" Value="Add"/>
+        <Setter Property="TextColor" Value="White"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="Margin" Value="10,0"/>
+        <Setter Property="BackgroundColor" Value="MediumPurple"/>
+        <Setter Property="BorderColor" Value="Black"/>
+        <Setter Property="BorderWidth" Value="1"/>
+        <Setter Property="Margin" Value="0,20,0,0"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="Grid.Row" Value="8"/>
+        <Setter Property="MaximumWidthRequest" Value="200"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageRDTestDateLabel" TargetType="Label">
+        <Setter Property="Text" Value="Test Date: "/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageRDTestDateDisplay" TargetType="Label">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageRDASTLabel" TargetType="Label">
+        <Setter Property="Text" Value="AST: "/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageRDASTDisplay" TargetType="Label">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="FontSize" Value="14"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageRDALTLabel" TargetType="Label">
+        <Setter Property="Text" Value="ALT: "/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="FontSize" Value="14"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageRDALTDisplay" TargetType="Label">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageRDALPLabel" TargetType="Label">
+        <Setter Property="Text" Value="ALP: "/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageRDALPDisplay" TargetType="Label">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageRDBilrubinLabel" TargetType="Label">
+        <Setter Property="Text" Value="Bilrubin: "/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="FontSize" Value="14"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageRDBilrubinDisplay" TargetType="Label">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="FontSize" Value="14"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageRDINRLabel" TargetType="Label">
+        <Setter Property="Text" Value="INR: "/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="FontSize" Value="14"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageRDINRDisplay" TargetType="Label">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="FontSize" Value="14"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageRDAlbuminLabel" TargetType="Label">
+        <Setter Property="Text" Value="Albumin: "/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="FontSize" Value="14"/>
+    </Style>
+
+    <Style x:Key="BloodTestPageRDAlbuminDisplay" TargetType="Label">
+        <Setter Property="Margin" Value="247,0,0,0"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="FontSize" Value="14"/>
+    </Style>
+                                                                                <!--****** BloodTestPage.xaml Elements Ends Here ******-->
+
+
+                                                                              <!--****** ElastographyPage.xaml Elements Starts Here ******-->
+
+
+    <Style x:Key="ElastographyPageBoxView" TargetType="BoxView">
+        <Setter Property="Color" Value="Black"/>
+        <Setter Property="HeightRequest" Value="1"/>
+        <Setter Property="HorizontalOptions" Value="Fill"/>
+        <Setter Property="VerticalOptions" Value="Start"/>
+    </Style>
+    
+    <Style x:Key="ElastographyPageLSMLabel" TargetType="Label">
+        <Setter Property="Text" Value="LSM"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="Grid.Row" Value="1"/>
+    </Style>
+
+    <Style x:Key="ElastographyPageLSMEntry" TargetType="Entry">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="PlaceholderColor" Value="WhiteSmoke"/>
+        <Setter Property="HorizontalTextAlignment" Value="Center"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="Keyboard" Value="Numeric"/>
+        <Setter Property="Grid.Row" Value="1"/>
+        <Setter Property="Margin" Value="0,10,80,0"/>
+    </Style>
+
+    <Style x:Key="ElastographyPageLSMUnitLebl" TargetType="Label">
+        <Setter Property="Text" Value="kPa"/>
+        <Setter Property="FontSize" Value="11"/>
+        <Setter Property="TextColor" Value="Grey"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="Grid.Row" Value="1"/>
+        <Setter Property="Margin" Value="0,0,10,0"/>
+    </Style>
+
+    <Style x:Key="ElastographyPageIQRLabel" TargetType="Label">
+        <Setter Property="Text" Value="IQR"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="Margin" Value="0,0,10,0"/>
+    </Style>
+
+    <Style x:Key="ElastographyPageIQREntry" TargetType="Entry">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="PlaceholderColor" Value="WhiteSmoke"/>
+        <Setter Property="HeightRequest" Value="40"/>
+        <Setter Property="Margin" Value="0,10,80,0"/>
+        <Setter Property="HorizontalTextAlignment" Value="Center"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="Keyboard" Value="Numeric"/>
+    </Style>
+
+    <Style x:Key="ElastographyPageIQRUnitLebl" TargetType="Label">
+        <Setter Property="Text" Value="kPa"/>
+        <Setter Property="FontSize" Value="11"/>
+        <Setter Property="TextColor" Value="Grey"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="Margin" Value="0,0,10,0"/>
+    </Style>
+
+
+    <Style x:Key="ElastographyPageStageLabel" TargetType="Label">
+        <Setter Property="Text" Value="Stage"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+    </Style>
+
+    <Style x:Key="ElastographyStagePicker" TargetType="Picker">
+        <Setter Property="Title" Value="Select"/>
+        <Setter Property="Margin" Value="0,0,0,0"/>
+        <Setter Property="FontSize" Value="12"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+    </Style>
+    
+    <Style x:Key="ElastographyPageSatgeDisplayLabel" TargetType="Label">
+        <Setter Property="Text" Value="{Binding SelectedStage}"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="Margin" Value="0,0,80,0"/>
+        <Setter Property="WidthRequest" Value="50"/>
+        <Setter Property="HorizontalTextAlignment" Value="Center"/>
+
+    </Style>
+
+
+    <Style x:Key="ElastographyPageStageUnitLebl" TargetType="Label">
+        <Setter Property="Text" Value="kPa"/>
+        <Setter Property="FontSize" Value="11"/>
+        <Setter Property="TextColor" Value="Grey"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="Margin" Value="0,0,10,0"/>
+    </Style>
+
+    <Style x:Key="ElastographyPageAgeLabel" TargetType="Label">
+        <Setter Property="Text" Value="Age"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="Margin" Value="0,0,10,0"/>
+    </Style>
+
+    <Style x:Key="ElastographyPageAgeEntry" TargetType="Entry">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="PlaceholderColor" Value="WhiteSmoke"/>
+        <Setter Property="HeightRequest" Value="40"/>
+        <Setter Property="Margin" Value="0,10,80,0"/>
+        <Setter Property="HorizontalTextAlignment" Value="Center"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="Keyboard" Value="Numeric"/>
+    </Style>
+
+    <Style x:Key="ElastographyPageGenderLabel" TargetType="Label">
+        <Setter Property="Text" Value="Gender"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="Margin" Value="0,0,10,0"/>
+    </Style>
+
+    <Style x:Key="ElastographyGenderPicker" TargetType="Picker">
+        <Setter Property="Title" Value="Select"/>
+        <Setter Property="FontSize" Value="12"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+    </Style>
+
+    <Style x:Key="ElastographyPageGenderDisplayLabel" TargetType="Label">
+        <Setter Property="Text" Value="{Binding SelectedGender}"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="WidthRequest" Value="50"/>
+        <Setter Property="HorizontalTextAlignment" Value="Center"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="Margin" Value="0,0,80,0"/>
+    </Style>
+
+
+    <Style x:Key="ELastographyPageRDLSMLabel" TargetType="Label">
+        <Setter Property="Text" Value="LSM: "/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+    </Style>
+
+
+    <Style x:Key="ELastographyPageRDLSMDisplay" TargetType="Label">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+    </Style>
+
+    <Style x:Key="ELastographyPageRDIQRLabel" TargetType="Label">
+        <Setter Property="Text" Value="IQR: "/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+    </Style>
+
+    <Style x:Key="ELastographyPageRDIQRDisplay" TargetType="Label">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="FontSize" Value="14"/>
+    </Style>
+
+
+    <Style x:Key="ELastographyPageRDStageLabel" TargetType="Label">
+        <Setter Property="Text" Value="Stage: "/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+    </Style>
+
+    <Style x:Key="ELastographyPageRDStageDisplay" TargetType="Label">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+    </Style>
+
+
+    <Style x:Key="ELastographyPageRDAgeLabel" TargetType="Label">
+        <Setter Property="Text" Value="Age: "/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+    </Style>
+
+    <Style x:Key="ELastographyPageRDAgeDisplay" TargetType="Label">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="FontSize" Value="14"/>
+    </Style>
+
+    <Style x:Key="ELastographyPageRDGenderLabel" TargetType="Label">
+        <Setter Property="Text" Value="Gender: "/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+    </Style>
+
+    <Style x:Key="ELastographyPageRDGenderDisplay" TargetType="Label">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="FontSize" Value="14"/>
+    </Style>
+    <!--****** ElastographyPage.xaml Elements Ends Here ******-->
+
+    <!--****** HepatiqPage.xaml Elements Starts Here ******-->
+
+
+    <Style x:Key="HepatiqPageInfoMessageLabel" TargetType="Label">
+        <Setter Property="Text" Value="HEPATIQ® is the only product on the martket that &#10;precisely 
+quantifies remaining liver function. To use &#10;a car analogy, all other tests measure the air in the &#10;gas tank. 
+That won't tell you how far the car will &#10;travel. HEPATIQ® measures the gas in the gas tank."/>
+        <Setter Property="TextColor" Value="White"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="LineBreakMode" Value="WordWrap"/>
+    </Style>
+
+   
+    <Style x:Key="HepatiqPageInfoMessageButton" TargetType="Button">
+        <Setter Property="Text" Value="Skip "/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="Margin" Value="0,40,0,0"/>
+    </Style>
+
+    <!--****** HepatiqPage.xaml Elements Ends Here ******-->
+</ResourceDictionary>

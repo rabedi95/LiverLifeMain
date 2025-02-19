@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LiverLife.HepatiqPage"
+             Background="{StaticResource BackgroundGradient}"
+             NavigationPage.HasBackButton="True"
+             Title="">
+    <Grid RowDefinitions="Auto, Auto, Auto, Auto, Auto" ColumnDefinitions="Auto,*">
+
+        <VerticalStackLayout x:Name="HepatiqInfoMessage" Grid.ColumnSpan="2" Padding="5" Margin="10,50,0,0" IsVisible="True">
+
+            <Grid Grid.ColumnSpan="2" >
+                
+                <Label x:Name="HepatiqInfomessage" Style="{StaticResource HepatiqPageInfoMessageLabel}"/>
+                
+            </Grid>
+            
+            <Button x:Name="HepatiqSkipButton" Style="{StaticResource HepatiqPageInfoMessageButton}" Clicked="SkipBtnClicked"/>
+            
+        </VerticalStackLayout>
+        
+    </Grid>
+</ContentPage>

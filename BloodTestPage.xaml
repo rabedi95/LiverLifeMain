@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LiverLife.BloodTestPage"
+             Title=""
+             Background="{StaticResource BackgroundGradient}"
+             NavigationPage.HasBackButton="True">
+
+    <Grid  RowDefinitions="Auto, Auto, Auto, Auto,Auto,Auto,Auto,Auto"  ColumnDefinitions="Auto,*"  >
+        <VerticalStackLayout x:Name="BPInputLayout" Grid.ColumnSpan="2" Padding="10" BackgroundColor="WhiteSmoke" >
+
+            <Grid  Grid.ColumnSpan="2" >
+                <Label Style="{StaticResource BloodTestPageDateLabel}"/>
+                <DatePicker x:Name="TestDatePicker" Style="{StaticResource BloodTestPageDatePicker}" />
+            </Grid>
+            <BoxView Style="{StaticResource BloodtestPageDateBoxView}"/>
+
+            <Grid  Grid.ColumnSpan="2">
+                <Label  Style="{StaticResource BloodTestPageAstLabel}" />
+                <Entry x:Name="AstEntry" Style="{StaticResource BloodTestPageAstEntry}"/>
+                <Label Style="{StaticResource BloodTestPageAstUnitLebl}"/>
+            </Grid>
+            <BoxView Style="{StaticResource BloodtestPageDateBoxView}"/>
+            <Grid  Grid.ColumnSpan="2">
+                <Label  Style="{StaticResource BloodTestPageAltLabel}" />
+                <Entry x:Name="AltEntry" Style="{StaticResource BloodTestPageAltEntry}"/>
+                <Label Style="{StaticResource BloodTestPageAltUnitLebl}"/>
+            </Grid>
+            <BoxView Style="{StaticResource BloodtestPageDateBoxView}"/>
+            <Grid  Grid.ColumnSpan="2">
+                <Label  Style="{StaticResource BloodTestPageAlpLabel}" />
+                <Entry x:Name="AlpEntry" Style="{StaticResource BloodTestPageAlpEntry}"/>
+                <Label Style="{StaticResource BloodTestPageAlpUnitLebl}"/>
+            </Grid>
+            <BoxView Style="{StaticResource BloodtestPageDateBoxView}"/>
+            <Grid  Grid.ColumnSpan="2">
+                <Label  Style="{StaticResource BloodTestPageBilirubiaLabel}" />
+                <Entry x:Name="BilirubinEntry" Style="{StaticResource BloodTestPageBilirubiatEntry}"/>
+                <Label Style="{StaticResource BloodTestPageBilirubiaUnitLebl}"/>
+            </Grid>
+            <BoxView Style="{StaticResource BloodtestPageDateBoxView}"/>
+            <Grid  Grid.ColumnSpan="2">
+                <Label Style="{StaticResource BloodTestPageInrLabel}" />
+                <Entry x:Name="InrEntry" Style="{StaticResource BloodTestPageInrEntry}"/>
+            </Grid>
+            <BoxView Style="{StaticResource BloodtestPageDateBoxView}"/>
+            <Grid  Grid.ColumnSpan="2">
+                <Label Style="{StaticResource BloodTestPageAlbuminLabel}" />
+                <Entry x:Name="AlbuminEntry" Style="{StaticResource BloodTestPageAlbuminEntry}"/>
+                <Label Style="{StaticResource BloodTestPageAlbuminUnitLebl}"/>
+            </Grid>
+            <BoxView Style="{StaticResource BloodtestPageDateBoxView}"/>
+            
+        </VerticalStackLayout>
+        <Button Style="{StaticResource BloodTestPageAddButton}" Clicked="OnAddButtonClicked"/>
+        <VerticalStackLayout x:Name="BPRecordedDataLayout"  Padding="20" Grid.ColumnSpan="2"  IsVisible="False" BackgroundColor="WhiteSmoke" >
+
+            <Grid  Grid.ColumnSpan="2" >
+                <Label Style="{StaticResource BloodTestPageRDTestDateLabel}" />
+                <Label x:Name="RecordedTestDateLabel" Style="{StaticResource BloodTestPageRDTestDateDisplay}" />
+            </Grid>
+
+            <Grid  Grid.ColumnSpan="2" >
+                <Label Style="{StaticResource BloodTestPageRDASTLabel}" />
+                <Label x:Name="RecordedAstLabel" Style="{StaticResource BloodTestPageRDASTDisplay}"/>
+            </Grid>
+            <Grid  Grid.ColumnSpan="2" >
+                <Label Style="{StaticResource BloodTestPageRDALTLabel}"/>
+                <Label x:Name="RecordedAltLabel"  Style="{StaticResource BloodTestPageRDALTDisplay}"/>
+            </Grid>
+            <Grid  Grid.ColumnSpan="2" >
+            <Label Style="{StaticResource BloodTestPageRDALPLabel}"/>
+                <Label x:Name="RecordedAlpLabel" Style="{StaticResource BloodTestPageRDALPDisplay}"/>
+            </Grid>
+            <Grid  Grid.ColumnSpan="2" >
+            <Label Style="{StaticResource BloodTestPageRDBilrubinLabel}"/>
+            <Label x:Name="RecordedBilirubinLabel" Style="{StaticResource BloodTestPageRDBilrubinDisplay}"/>
+            </Grid>
+            <Grid  Grid.ColumnSpan="2" >
+                <Label Style="{StaticResource BloodTestPageRDINRLabel}" />
+                <Label x:Name="RecordedInrLabel" Style="{StaticResource BloodTestPageRDINRDisplay}"/>
+            </Grid>
+            <Grid  Grid.ColumnSpan="2" >
+                <Label Style="{StaticResource BloodTestPageRDAlbuminLabel}"/>
+                <Label x:Name="RecordedAlbuminLabel" Style="{StaticResource BloodTestPageRDAlbuminDisplay}"/>
+            </Grid>
+        </VerticalStackLayout>
+
+    </Grid>
+    
+    <ContentPage.ToolbarItems>
+        
+        <ToolbarItem x:Name="BPToolbarEditBtn" Text="Edit"   IsEnabled="False" Clicked="OnEditButtonClicked">
+            
+        </ToolbarItem>
+        
+    </ContentPage.ToolbarItems>
+    
+</ContentPage>
